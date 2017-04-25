@@ -1,6 +1,6 @@
 # npmtest-netbeast
 
-#### test coverage for  [netbeast (v1.1.0)](https://github.com/netbeast/api)  [![npm package](https://img.shields.io/npm/v/npmtest-netbeast.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-netbeast) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-netbeast.svg)](https://travis-ci.org/npmtest/node-npmtest-netbeast)
+#### basic test coverage for  [netbeast (v1.1.0)](https://github.com/netbeast/api)  [![npm package](https://img.shields.io/npm/v/npmtest-netbeast.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-netbeast) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-netbeast.svg)](https://travis-ci.org/npmtest/node-npmtest-netbeast)
 
 #### Resources for node.js wrapper
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-netbeast/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-netbeast/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-netbeast/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-netbeast/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-netbeast/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-netbeast/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-netbeast/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-netbeast/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-netbeast/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-netbeast/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-netbeast/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-netbeast/build/coverage.html/index.html)
 
@@ -85,7 +85,8 @@
         "app": "node index.js",
         "test": "npm test"
     },
-    "version": "1.1.0"
+    "version": "1.1.0",
+    "bin": {}
 }
 ```
 
